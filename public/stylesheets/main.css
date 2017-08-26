@@ -1,0 +1,46 @@
+
+body {
+  background-image: url('../images/map.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.weather {
+  margin-top: 150px;
+  color : #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 5px 5px 15px #787878;
+}
+p {
+  font-size: 60px;
+  font-style: italic;
+  text-shadow: 5px 5px 15px #151516;
+}
+form {
+  margin-top: 90px;
+}
+input, button {
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+}
+input {
+  width: 250px;
+  height: 35px;
+}
+button {
+  width: 60px;
+  height: 41px;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #2f2f2frgba(140, 139, 142, 0.5);
+}
+button:hover {
+  background-color: rgba(81, 80, 83, 0.5);
+  color: #fff;
+  transition: 0.5s;
+}

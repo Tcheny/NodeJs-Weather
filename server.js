@@ -1,11 +1,11 @@
-const express = require('express');
-const path = require('path'); // Charge le middleware des routes
-const logger = require('morgan'); // Charge le middleware de logging
-const bodyParser = require('body-parser'); // 
+const express    = require('express');
+const path       = require('path'); // Charge le middleware des routes
+const logger     = require('morgan'); // Charge le middleware de logging
+const bodyParser = require('body-parser'); // Parser le formulaire
 
-const routes = require('./routes') // Charge le fichier routes.js
+const routes     = require('./routes') // Charge le fichier routes.js
 
-const app = express();
+const app        = express();
 
 app.set('view engine','ejs' ); // Indique qu'il y a des fichiers ejs
 app.set('views', path.resolve(__dirname, 'views')); // Indique le chemin du le dossier views
